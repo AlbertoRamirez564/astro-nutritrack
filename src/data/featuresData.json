@@ -1,16 +1,16 @@
 [
     {
         "id": 1,
-        "title": "Effortless Planning",
-        "content": "Say goodbye to meal planning stress! With NutriTrack, planning your meals becomes a breeze. Our user-friendly Notion template lets you create customized daily or weekly meal plans effortlessly. Enjoy a balanced and nutritious diet without the hassle.",
+        "title": "Las Mascotas son tus amigos",
+        "content": "las mascotas son mucho más que simples animales, son compañeros leales que brindan amor incondicional y alegría a cada momento.",
         "align": "right",
-        "image": "/images/features1.png"
+        "image": "/images/HUSKY.jpeg"
     },
     {
         "id": 1,
-        "title": "Shopping List",
-        "content": "We've got your grocery shopping covered! NutriTrack includes a handy shopping list feature. As you plan your meals, the template automatically generates a comprehensive shopping list. No more forgotten items or aimless wandering in the supermarket. Shopping for healthy ingredients has never been easier!",
+        "title": "Las mascotas Brindan Alegria",
+        "content": "Las mascotas no solo llenan nuestras vidas de amor, sino que también nos regalan momentos divertidos. Descubre cómo la alegría y las risas son una parte integral de tener una mascota en tu hogar.",
         "align": "left",
-        "image": "/images/features2.png"
+        "image": "/images/01.jpg"
     }
 ]

@@ -1,26 +1,21 @@
 [
     {
         "id": 1,
-        "title": "What is Notion?",
+        "title": "Calida y Seguridad",
         "isOpen": true,
-        "content": "Notion is an all-in-one productivity tool that allows you to create notes, databases, and collaborative workspaces, making it easy to organize and manage your tasks, projects, and ideas in one place."
+        "content": "Nos comprometemos a proporcionar productos de la más alta calidad y seguridad. Cada artículo en nuestra tienda ha sido seleccionado con el cuidado que tus mascotas merecen, para garantizar su bienestar y felicidad."
     },
     {
         "id": 2,
-        "title": "Who is this template for?",
+        "title": "Diversion y Aventura",
         "isOpen": false,
-        "content": "This template is specifically designed for Notion creators who want to create a personalized landing page for their Notion workspace, showcasing their projects, services, or content in a visually appealing manner."
+        "content": "Entendemos la importancia de la diversión y la aventura en la vida de tus mascotas. Desde juguetes interactivos hasta accesorios de moda, ofrecemos una amplia gama de productos que harán que cada día sea una nueva aventura."
     },
     {
         "id": 3,
-        "title": "Do I need to pay for this?",
+        "title": "Coneccion Humano y Mascota",
         "isOpen": false,
-        "content": "No, this is free."
-    },
-    {
-        "id": 5,
-        "title": "Where can I ask more questions about this template?",
-        "isOpen": false,
-        "content": "If you have any further questions or need assistance regarding this template, please feel free to reach out to me on my website, or click the Contact within the navigation links."
+        "content": "En Pet Shop, entendemos que tu relación con tu mascota es única. Nuestro objetivo es fortalecer esa conexión proporcionando productos que mejoren la calidad de vida de ambos."
     }
+    
 ]

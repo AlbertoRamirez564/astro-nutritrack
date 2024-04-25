@@ -1,11 +1,10 @@
 [
-    { "name": "Features", "to": "#features", "href": "/#features" },
-    { "name": "Testimonials", "to": "#testimonials", "href": "/#testimonials" },
-    { "name": "FAQ", "to": "#faq", "href": "/#faq" },
+    { "name": "Informacion", "to": "#features", "href": "/#features" },
+    { "name": "Referencias", "to": "#testimonials", "href": "/#testimonials" },
+    { "name": "Por que elegirnos?", "to": "#faq", "href": "/#faq" },
     {
-        "name": "Contact",
-        "href": "https://chrstnl.com/",
-        "isArrow": true,
+        
+        
         "target": "_blank"
     }
 ]

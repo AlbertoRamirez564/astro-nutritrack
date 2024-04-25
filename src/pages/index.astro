@@ -23,8 +23,8 @@ import Column from "@/components/Column.astro";
 ---
 
 <Layout
-    title="NutriTrack - A landing page template 🚀"
-    description="Discover NutriTrack, the effortless way to plan your meals with the power of Notion. Streamline your nutrition journey and achieve your health goals with ease."
+    title="PET SHOP"
+    description=""
 >
     <div class="main-wrapper bg-[#F3F5F8] relative z-10 pb-20 pt-20">
         <HomeBanner />
@@ -34,18 +34,18 @@ import Column from "@/components/Column.astro";
         >
             <SectionContainer id="features" class="features">
                 <BadgeGroup alignment="center">
-                    <BadgeMessage>Features</BadgeMessage>
+                    <BadgeMessage>Informacion</BadgeMessage>
                     <BadgeIcon icon="mdi:star-circle-outline" />
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
-                    Simplify Your Nutrition Journey with NutriTrack
+                    "Las Mascotas y el Apoyo Emocional"
                 </PageTitle>
                 <Content class="text-center" alignment="center">
                     <p>
-                        Hey there! Welcome to NutriTrack, the ultimate nutrition
-                        meal planner powered by Notion. We&apos;ve got some
-                        awesome features lined up to make your nutrition journey
-                        a piece of cake (pun intended). Check them out:
+                      Las mascotas no solo son adorables, también desempeñan el rol de terapeutas peludos, 
+                      aliviando el estrés y elevando el ánimo con su presencia reconfortante
+
+
                     </p>
                 </Content>
                 <ContentImage contentImageData={featuresData} />
@@ -53,63 +53,66 @@ import Column from "@/components/Column.astro";
             <!-- Features -->
             <SectionContainer class="feature-tabs">
                 <BadgeGroup alignment="center">
-                    <BadgeMessage>More Features</BadgeMessage>
+                    <BadgeMessage>Seccion de Compras</BadgeMessage>
                     <BadgeIcon icon="twemoji:waving-hand" />
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
-                    Master Your Meal Planning and Nutrition Journey
+                   Nuestros Productos
                 </PageTitle>
                 <Content class="text-center" alignment="center">
                     <p>
-                        Our comprehensive Notion template designed to empower
-                        you on your meal planning and nutrition journey. With
-                        our user-friendly features, customizable layouts, and
-                        seamless recipe integration, taking control of your
-                        meals has never been easier.
+                       ¡Explora lo último en tecnología para mascotas en Pet Shop!
+                        Descubre dispositivos inteligentes y accesorios de vanguardia 
+                        diseñados para hacer la vida con tus mascotas más segura y divertida. ¡Bienvenido a la innovación en Pet Shop!
                     </p>
                 </Content>
+                <p></p>
+                    <PageTitle class="text-center mx-auto" type="default">
+
+                  
+                </PageTitle>
                 <CardGroup
                     class="grid scroll-m-24 gap-8 grid-cols-1 max-w-4xl mx-auto mt-24 md:grid-cols-2"
                 >
+
+                
                     <Card class="col-span-1 text-primary-900">
                         <CardBody class="w-full bg-white-600/20 p-12">
                             <CardImage
-                                src="/images/features4.png"
+                                src="/images/p04.png"
                                 alt="Customizable Layouts image used."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Customizable Layouts
+                                Collar GPS
                             </CardHeader>
                             <p>
-                                Personalize your meal planning experience with
-                                our flexible layouts. Tailor your sections,
-                                categories, and tabs to suit your unique style
-                                and organization preferences. Our template
-                                adapts to your needs, providing a seamless and
-                                personalized planning experience.
+                                Explora la libertad segura con nuestro Collar GPS. 
+                                Con tecnología de rastreo en tiempo real, establece zonas seguras 
+                                y recibe alertas personalizadas. Diseñado para brindar tranquilidad,
+                                 este collar es la herramienta esencial para dueños que valoran la seguridad
+                                  y la conexión constante con sus mascotas.
                             </p>
                         </CardBody>
                     </Card>
+                    
                     <Card class="col-span-1 text-primary-900">
                         <CardBody class="w-full bg-white-600/20 p-12">
                             <CardImage
-                                src="/images/features3.png"
+                                src="/images/p03.jpeg"
                                 alt="Progress Tracking image used."
                             />
                             <CardHeader
                                 class="!text-black !text-2xl !font-bold"
                             >
-                                Progress Tracking
+                              Cepillo Electronico
                             </CardHeader>
                             <p>
-                                Celebrate your wins and stay motivated on your
-                                nutrition journey. NutriTrack allows you to
-                                monitor your progress with weight, measurements,
-                                and other key metrics. Track your improvements
-                                over time and see the positive impact of your
-                                healthy choices.
+                               Transforma el momento del cepillado con nuestro Cepillo Electrónico. 
+                               Elimina eficazmente el pelo suelto y los nudos, haciendo que el aseo sea una 
+                               experiencia placentera. Con ajustes personalizables, este cepillo se adapta a 
+                               las necesidades de cada tipo de pelaje, promoviendo la salud y la belleza del pelaje de tu mascota.
                             </p>
                         </CardBody>
                     </Card>
@@ -118,24 +121,24 @@ import Column from "@/components/Column.astro";
             <!-- More Features -->
             <SectionContainer id="testimonials" class="benefits">
                 <BadgeGroup alignment="left">
-                    <BadgeMessage>Testimonials</BadgeMessage>
+                    <BadgeMessage>Referencias</BadgeMessage>
                     <BadgeIcon icon="twemoji:waving-hand" />
                 </BadgeGroup>
                 <PageTitle class="" type="default">
-                    This is what our customers have to say about this template
+                    Algunas Referencias de clientes 
                 </PageTitle>
                 <Column columnData={testimonialData} />
             </SectionContainer>
             <!-- Testimonials -->
             <SectionContainer id="faq" class="faq">
                 <BadgeGroup alignment="center">
-                    <BadgeMessage>FAQ</BadgeMessage>
+                    <BadgeMessage>Informacion</BadgeMessage>
                 </BadgeGroup>
                 <PageTitle class="text-center mx-auto" type="default">
-                    Got some burning questions about NutriTrack?
+                    Por que Elegirnos?
                     <br />
                     <br />
-                    No worries! We&apos;ve got the answers you need:
+               
                 </PageTitle>
                 <Accordion accordionData={faqData} />
             </SectionContainer>
